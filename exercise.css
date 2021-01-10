@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style-type: none;
+  display: inline;
+  
+}   
+
+li {
+    text-decoration: none;
+    float: right;  
+    
+}
+.nav li {
+    color: #ffffff;
+    display: inline-block; 
+    padding: 20px;
+    margin-left: 10px;
+    
+  }
+ 
+  h1 {
+      margin-left: 250px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      display: inline;
+  } 
+  .google-logo {
+      width: 100%;
+      height: 80vh;
+  }
+  h2 {
+      margin-left: 50px;
+  }
+ .two {
+     display: inline-block;
+ }
+ .img1 {
+     width: 22%;
+     height: 10%;
+     margin-right: 20px;
+     padding-left: 40px;
+ }
+ .three {
+        display: inline;
+ }
+ .img2 {
+     width: 22%;
+     height: 273.688px;
+     margin-right: 20px;
+     padding-left: 40px;   
+ } 
+ h3  {
+margin-left: 50px;
+ }
+ p {
+    margin-left: 50px;
+ }
+
+ .img3 {
+     width: 50%;
+     margin-right: 80px;
+     padding-left: 50px; 
+     height: 50%;
+ } 
+ .inline {
+     float: right;
+     width: 25%;
+ } 
+ h4 { 
+    margin-left: 50px;
+ } 
+ 
+ input[type=name] {
+    width: 100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+}
+ input[type=email] {
+     width: 100%;
+     padding: 12px 20px;
+  margin: 8px 0;
+ }
+ input[type=text] {
+    width: 100%;
+    height: 5%;
+    padding: 12px 20px;
+  margin: 8px 0;
+}
+input[type=submit] {
+    color:white;
+    padding: 20px;
+    background-color: black;
+}
+
+ @media screen and (max-width: 992px) {
+     .img1 {
+         width: 22%;
+     }
+     .img1 {
+         width: 22%;
+     }
+     .inline {
+         width: 22%;
+     }
+ }
+ @media screen and (max-width: 768px) {
+    .img1 {
+        width: 44%;
+    }
+    .img2 {
+        width: 44%;
+    }
+    .inline {
+        width: 44%;
+    }
+}
+@media screen and (max-width: 572px) {
+    .img1 {
+        width: 88%;
+    }
+    .img2 {
+        width: 88%;
+    }
+    .inline {
+        width: 88%;
+    }
+    
+    
+} 
+
+/*@media screen and (max-width: 992px) {
+    .img2 {
+        width: 22%;
+    }
+}
+@media screen and (max-width: 768px) {
+   .img2 {
+       width: 44%;
+   }
+}
+@media screen and (max-width: 572px) {
+   .img2 {
+       width: 88%;
+   }
+} 
+
+@media screen and (max-width: 992px) {
+    .inline {
+        width: 22%;
+    }
+}
+@media screen and (max-width: 768px) {
+   .inline {
+       width: 44%;
+   }
+   
+
+   
+}
+@media screen and (max-width: 572px) {
+   .inline {
+       width: 88%;
+   }
+} 
+@media screen and (min-width: 300px) and (max-width: 100px) {
+    .nav  {
+        position: absolute;
+        display: inline;
+    }
+} */

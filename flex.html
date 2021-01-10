@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-1 {
+            display: flex;
+            flex-direction: row;
+        }
+        .box-1 {
+            border: 1px solid black;
+            flex: 1;
+            order: 1;
+        }
+        .box-2 {
+            border: 1px solid black;
+            flex: 2;
+            order: 2;
+        }
+        .box-3 {
+            border: 1px solid black;
+            flex: 1;
+            order: 3;
+        }
+        .container-3 {
+            display: flex;
+        }
+        .item-1 {
+            border: 3px solid black;
+           /* align-self: flex-start; */
+           order: 1;
+        }
+        .item-2 {
+            border: 3px solid black;
+           /* align-self: flex-start; */
+           order: 2;
+        }
+        .item-3 {
+            border: 3px solid black;
+           /* align-self: flex-start; */
+           order: 1;
+        }
+
+        @media screen and (max-width: 500px) {
+            .container-1 {
+                display: flex;
+                flex-direction: column;
+            }
+            .box-1 {
+            border: 1px solid black;
+            flex: 4;
+            order: 2;
+        }
+        .box-2 {
+            border: 1px solid black;
+            flex: 2;
+            order: 0;
+        }
+        .box-3 {
+            border: 1px solid black;
+            flex: 1;
+            order: 1;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex</h1>
+    <div class="container-1">
+        <div class="box-1">
+            <h2>Box 1</h2>
+        </div>
+        <div class="box-2">
+            <h2>Box 2</h2>
+        </div>
+        <div class="box-3">
+            <h2>Box 3</h2>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="box">
+            <h2>Box </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus tempore consequuntur sit quisquam dolor nam adipisci a totam sapiente id tenetur deserunt hic, porro cum dolore non, amet ullam dicta?</p>
+        </div>
+        <div class="box">
+            <h2>Box </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nobis cupiditate debitis, adipisci consequuntur quos similique laudantium! Pariatur, consectetur voluptatem odit ab non assumenda nisi totam facilis itaque ratione est!</p>
+        </div>
+        <div class="box">
+            <h2>Box </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, autem est. Aspernatur laudantium, error voluptatum vitae distinctio tempora aut, natus sit assumenda omnis asperiores nemo dolore atque corporis, consectetur accusamus!</p>
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="item-1">
+            <h2>Box 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est quo dignissimos odit placeat? Corporis et, quae totam aspernatur deserunt nam repellat repudiandae amet libero? Consectetur quam eligendi eum porro!</p>
+        </div>
+        <div class="item-2">
+            <h2>Box 2</h2>
+        </div>
+        <div class="item-3">
+            <h2>Box 3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aliquid sunt libero officiis blanditiis veniam omnis ipsum cumque ad vero provident, id nostrum harum doloribus nisi obcaecati fuga iste aliquam.</p>
+        </div>
+    </div>
+</body>
+</html>
